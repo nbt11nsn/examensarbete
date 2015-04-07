@@ -35,28 +35,26 @@ require_once(__DIR__ .'./../../db.php');
 <div id="infoframe">
 
   <form>
-
-
 	<fieldset>
 		<legend><b>Sökande</b></legend>	
 
-		<label for="namn">Namn: </label>
+		<label for="namn">Namn*: </label>
 		<input required type="text" align="left"  maxlength="50" value = ""  name="namn" id="requiredtextframe" />
 
 				
-		<label for="persnummer">Personnummer/organisationsnummer: </label>
+		<label for="persnummer">Personnummer/organisationsnummer*: </label>
 		<input required type="text" value = "" name = "persnummer" id = "requiredtextframe"/>
 		
-		<label for="adress">Gatuadress: </label>
+		<label for="adress">Gatuadress*: </label>
 		<input required type="text" value = "" name = "adress" id = "requiredtextframe"/>
 			
-		<label for="postnummer">Postnummer: </label>
+		<label for="postnummer">Postnummer*: </label>
 		<input required type="text" value = "" name = "postnummer" id = "requiredtextframe"/>
 		
-		<label for="port">Postort: </label>
+		<label for="port">Postort*: </label>
 		<input required type="text" value = "" name = "port" id = "requiredtextframe"/>
 		
-		<label for="teledag">Telefon dagtid(inklusive riktnummer): </label>
+		<label for="teledag">Telefon dagtid(inklusive riktnummer)*: </label>
 		<input required type="text" value = "" name = "teledag" id = "requiredtextframe"/>
 		
 		<label for="alttele">Alternativt telefonnummer(inklusive riktnummer): </label>
@@ -68,25 +66,25 @@ require_once(__DIR__ .'./../../db.php');
 
 	<fieldset>		
 		<legend><b>Borrfirma</b></legend>	
-		<label for="sitac">SITACS certifieringsnummer: </label>
+		<label for="sitac">SITACS certifieringsnummer*: </label>
 	  <input required type="text" value = "" name = "sitac" id = "requiredtextframe"/>
 		
-		<label for="fnamn">Företagsnamn: </label>
+		<label for="fnamn">Företagsnamn*: </label>
 		<input required type="text" value = "" name = "fnamn" id = "requiredtextframe"/>
 		
-		<label for="namn">Namn: </label>
+		<label for="namn">Namn*: </label>
 		<input required type="text" value = "" name = "namn" id = "requiredtextframe"/>
 		
-		<label for="adress">Gatuadress: </label>
+		<label for="adress">Gatuadress*: </label>
 		<input required type="text" value = "" name = "adress" id = "requiredtextframe"/>
 			
-		<label for="postnummer">Postnummer: </label>
+		<label for="postnummer">Postnummer*: </label>
 		<input required type="text" value = "" name = "postnummer" id = "requiredtextframe"/>
 		
-		<label for="port">Postort: </label>
+		<label for="port">Postort*: </label>
 		<input required type="text" value = "" name = "port" id = "requiredtextframe"/>
 		
-		<label for="teledag">Telefon dagtid(inklusive riktnummer): </label>
+		<label for="teledag">Telefon dagtid(inklusive riktnummer)*: </label>
 		<input required type="text" value = "" name = "teledag" id = "requiredtextframe"/>
 		
 		<label for="alttele">Alternativt telefonnummer(inklusive riktnummer): </label>
@@ -98,19 +96,19 @@ require_once(__DIR__ .'./../../db.php');
 		
 	<fieldset>		
 		<legend><b>Installatör</b></legend>	
-		<label for="namn">Namn: </label>
+		<label for="namn">Namn*: </label>
 		<input required type="text" value = "" name = "namn" id = "requiredtextframe"/>
 		
-		<label for="adress">Gatuadress: </label>
+		<label for="adress">Gatuadress*: </label>
 		<input required type="text" value = "" name = "adress" id = "requiredtextframe"/>
 			
-		<label for="postnummer">Postnummer: </label>
+		<label for="postnummer">Postnummer*: </label>
 		<input required type="text" value = "" name = "postnummer" id = "requiredtextframe"/>
 		
-		<label for="port">Postort: </label>
+		<label for="port">Postort*: </label>
 		<input required type="text" value = "" name = "port" id = "requiredtextframe"/>
 		
-		<label for="teledag">Telefon dagtid(inklusive riktnummer): </label>
+		<label for="teledag">Telefon dagtid(inklusive riktnummer)*: </label>
 		<input required type="text" value = "" name = "teledag" id = "requiredtextframe"/>
 		
 		<label for="alttele">Alternativt telefonnummer(inklusive riktnummer): </label>
@@ -122,31 +120,31 @@ require_once(__DIR__ .'./../../db.php');
 		
 	<fieldset>		
 		<legend><b>Uppgifter om värmepump</b></legend>	
-		<label for="fab">Fabrikat: </label>
+		<label for="fab">Fabrikat*: </label>
 		<input required type="text" value = "" name = "fab" id = "requiredtextframe"/>
 		
-		<label for="mod">Modell: </label>
+		<label for="mod">Modell*: </label>
 		<input required type="text" value = "" name = "mod" id = "requiredtextframe"/>
 			
-		<label for="eff">Effekt, kW: </label>
+		<label for="eff">Effekt, kW*: </label>
 		<input required type="text" value = "" name = "eff" id = "requiredtextframe"/>
 		
-		<label for="port">Typ av köldmedium: </label>
+		<label for="port">Typ av köldmedium*: </label>
 		<input required type="text" value = "" name = "port" id = "requiredtextframe"/>
 		
-		<label for="kmed">Mängd köldmedium, kg: </label>
+		<label for="kmed">Mängd köldmedium, kg*: </label>
 		<input required type="text" value = "" name = "kmed" id = "requiredtextframe"/>
 		
-		<label for="kollvol">Total volym köldbärarvätska i kollektorn, liter: </label>
+		<label for="kollvol">Total volym köldbärarvätska i kollektorn, liter*: </label>
 		<input required type="text" value = "" name = "kollvol" id = "requiredtextframe"/>
 		
-		<label for="frostskyddnamn">Frostskyddsmedel i köldbärarvätskan namn: </label>
+		<label for="frostskyddnamn">Frostskyddsmedel i köldbärarvätskan namn*: </label>
 		<input required type="text" value = "" name = "frostskyddnamn" id = "requiredtextframe"/>
 		
-		<label for="frostskyddfabrikat">Frostskyddsmedel i köldbärarvätskan fabrikat: </label>
+		<label for="frostskyddfabrikat">Frostskyddsmedel i köldbärarvätskan fabrikat*: </label>
 		<input required type="text" value = "" name = "frostskyddfabrikat" id = "requiredtextframe"/>
 		
-		<label for="frostskyddandel">Andel frostskyddsmedel i köldbärarvätskan, %: </label>
+		<label for="frostskyddandel">Andel frostskyddsmedel i köldbärarvätskan, %*: </label>
 		<input required type="text" value = "" name = "frostskyddandel" id = "requiredtextframe"/>
 	</fieldset>	
 	  </form>	
@@ -154,7 +152,7 @@ require_once(__DIR__ .'./../../db.php');
 		<legend><b>Karta</b></legend>
 		
 		<label for="alttele">Jag skickar kartan via post </label>
-		<input type='checkbox' class='checkbox_';
+		<input type='checkbox' class='checkbox_' id = "chkbox";
 		
 	<div class="upload_pdf" >
 		<form id="upload_form" enctype="multipart/form-data" method="post" action="">

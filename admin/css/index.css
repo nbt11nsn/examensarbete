@@ -201,15 +201,18 @@ background: #efefef;
 
 #opentextframe{
 text-align: left;
-
 padding-top: 5px;
 background: #efe;
 min-width: 500px;
 }
 
+#chkbox{
+  display: inline-block;
+  margin-left: 10px;
+}
+
 #requiredtextframe{	
 text-align: left;
-
 padding-top: 5px;
 width: 500px;
 }
