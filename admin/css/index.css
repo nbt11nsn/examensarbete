@@ -198,13 +198,20 @@ background: #efefef;
 }
 /* #########################FAKTURA SLUT############################# */
 /* #########################INFO BÖRJAN############################# */
-#infotextframe{	
+
+#opentextframe{
 text-align: left;
-margin-left: auto;
-margin-right: auto;
+
 padding-top: 5px;
 background: #efe;
 min-width: 500px;
+}
+
+#requiredtextframe{	
+text-align: left;
+
+padding-top: 5px;
+width: 500px;
 }
 
 #infologga{
@@ -468,9 +475,7 @@ text-align: left;
   margin-left: 25px;
 }
 
-#upload_form{
-  background: #F2F2F2;
-}
+
 
 #upload_form input[type="text"],
 #upload_form input[type="date"],
